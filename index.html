@@ -421,6 +421,1191 @@
                 </table>
               </div>
             </div>
+             
+
+<style>
+
+.fb-comments{
+
+background-color: white!important;
+
+border:1px solid #e9ebee!important
+
+}
+
+table th {
+
+padding: 2px !important;
+
+}
+
+td, table tbody tr{
+
+background-color: #fff!important;
+
+}
+
+@media (max-width: 768px) {
+
+.video-player {
+
+width: 100%;
+
+background: 0 0;
+
+}
+
+.video-player iframe {
+
+width: 100%;
+
+height: 100%;
+
+top: 0;
+
+margin: auto;
+
+}
+
+#frame {
+
+width: 100%;
+
+height: 100%;
+
+top: 0;
+
+margin: auto;
+
+}
+
+}
+
+* {
+
+font-family: helvetica, arial, sans-serif;
+
+}
+
+body {
+
+font-size: 16px;
+
+}
+
+.mark-comments{
+
+color: #365899;
+
+}
+
+.fb-comments {
+
+border: 1px solid #e9ebee!important;
+
+border-radius: 18px;
+
+padding: 12px;
+
+margin: auto;
+
+position: relative;
+
+color: #4267b2;
+
+}
+
+.fb-comments-header {
+
+padding: 0;
+
+border-bottom: 1px solid #e9ebee!important;
+
+}
+
+.fb-comments-header span {
+
+color: #000;
+
+font-weight: 700;
+
+font-size: 0.9em;
+
+}
+
+.fb-comments-comment {
+
+border: none!important;
+
+padding: 0;
+
+margin: 10px 0;
+
+width: 100%;
+
+}
+
+.fb-comments-reply-wrapper {
+
+margin-left: 60px;
+
+border-left: 1px dotted #e9ebee!important;
+
+padding-left: 5px;
+
+}
+
+tr,
+
+td {
+
+border: none!important;
+
+margin: 0;
+
+}
+
+td {
+
+padding: 2.5px;
+
+}
+
+tr {
+
+padding: 2.5px 0;
+
+}
+
+.fb-comments-comment-img {
+
+vertical-align: top;
+
+width: 48px;
+
+padding-right: 5px;
+
+}
+
+.fb-comments-comment-img img {
+
+max-width: 48px;
+
+border-radius: 25px;
+
+}
+
+.fb-comments-comment-name {
+
+font-size: 0.85em;
+
+}
+
+.fb-comments-comment-name name {
+
+color: #365899;
+
+text-decoration: none!important;
+
+font-weight: 700;
+
+cursor: pointer;
+
+cursor: hand;
+
+}
+
+.fb-comments-comment-name name:hover {
+
+text-decoration: underline!important;
+
+}
+
+.fb-comments-comment-name occupation {
+
+color: #90949c!important;
+
+}
+
+.fb-comments-comment-text {
+
+font-size: 0.9em;
+
+color: #000;
+
+border-radius: 21px;
+
+background-color: #eaebef!important;
+
+padding-left: 12px
+
+}
+
+.fb-comments-comment-actions{
+
+padding: 0 2px !important;
+
+}
+
+.fb-comments-comment-actions like,
+
+.fb-comments-comment-actions reply {
+
+font-size: 0.75em;
+
+color: #4267b2;
+
+text-decoration: none!important;
+
+cursor: pointer;
+
+cursor: hand;
+
+}
+
+.fb-comments-comment-actions like.liked {
+
+color: #90949c;
+
+}
+
+.fb-comments-comment-actions like:hover,
+
+.fb-comments-comment-actions reply:hover {
+
+text-decoration: underline;
+
+}
+
+.fb-comments-comment-actions likes {
+
+font-size: 13px;
+
+background: url(COLOQUEAQUIOLINKDAIMAGE);
+
+background-repeat: no-repeat;
+
+padding-left: 43px;
+
+padding-right: 6px;
+
+padding-top: 3px;
+
+padding-bottom: 2px;
+
+margin-top: -10px;
+
+float: right;
+
+background-color: #fff!important;
+
+border: solid #eaebef;
+
+border-radius: 19px;
+
+}
+
+.fb-comments-comment-actions date {
+
+font-size: 0.75em;
+
+color: #90949c;
+
+text-decoration: none;
+
+cursor: pointer;
+
+cursor: hand;
+
+}
+
+.fb-comments-comment-actions date:hover {
+
+text-decoration: underline;
+
+}
+
+.fb-comments-loadmore {
+
+background: #4080ff!important;
+
+border: 1px solid #4080ff!important;
+
+border-radius: 3px;
+
+box-sizing: border-box;
+
+color: #fff;
+
+font-size: 14px;
+
+padding: 0.875em;
+
+text-shadow: none;
+
+width: 100%;
+
+font-weight: 700;
+
+cursor: hand;
+
+cursor: pointer;
+
+}
+
+.fb-reply-input {
+
+border: 1px solid lightgrey;
+
+border-radius: 3px;
+
+width: 100%;
+
+padding: 5px 7.5px;
+
+font-size: 0.75em;
+
+color: #000;
+
+outline: none;
+
+}
+
+.fb-reply-input:hover,
+
+.fb-reply-button:hover {
+
+outline: none;
+
+}
+
+.fb-reply-button {
+
+background: #4080ff!important;
+
+border: 1px solid #4080ff!important;
+
+border-radius: 3px;
+
+box-sizing: border-box;
+
+color: #fff;
+
+font-size: 0.75em;
+
+padding: 5px 7.5px;
+
+text-shadow: none;
+
+width: 100%;
+
+font-weight: 700;
+
+cursor: hand;
+
+cursor: pointer;
+
+outline: none;
+
+}
+
+.bbtn {
+
+width: 100%;
+
+max-width: 449px;
+
+}
+
+@media (max-width: 768px) {
+
+.video-player {
+
+margin-top: 0 !important;
+
+}
+
+}
+
+header {
+
+background-repeat: no-repeat;
+
+background-size: cover;
+
+}
+
+h1 {
+
+font-size: clamp(1.5em, 1em + 3vw, 2.5em);
+
+text-transform: uppercase bold;
+
+font-family: 'Montserrat', sans-serif;
+
+}
+
+.a-btn {
+
+text-decoration: none;
+
+-webkit-font-smoothing: antialiased;
+
+margin: 0;
+
+border: 0;
+
+font: inherit;
+
+vertical-align: baseline;
+
+color: #2e82bc;
+
+outline: 0;
+
+line-height: 1;
+
+text-align: center;
+
+position:relative!important; display: inline-block!important;
+
+border-style: solid;
+
+width: 100%; padding-left: 0!important; padding-right: 0!important;
+
+margin-bottom: 10px;
+
+padding: 22px 44px; border-color: #ff5535; border-width: 0px;
+
+border-radius: 6px;
+
+background: linear-gradient(to bottom, #ff6600 0%, #ff5535 100%);
+
+box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.5);
+
+text-decoration: none!important;
+
+}
+
+.span-btn {
+
+text-decoration: none;
+
+-webkit-font-smoothing: antialiased;
+
+text-align: center;
+
+margin: 0;
+
+border: 0;
+
+font: inherit;
+
+vertical-align: baseline;
+
+display: block;
+
+position: relative;
+
+z-index: 1;
+
+padding: 0 15px;
+
+white-space: normal;
+
+font-size: 25px;
+
+color: #ffffff;
+
+font-family: Oswald;
+
+font-weight: bold;
+
+text-shadow: #000000 0px 1px 0px;
+
+text-decoration: none;
+
+}
+
+.span-btn2 {
+
+-webkit-font-smoothing: antialiased;
+
+text-align: center;
+
+padding: 0; border: 0;
+
+font: inherit;
+
+vertical-align: baseline;
+
+display: block;
+
+position: relative;
+
+z-index: 1;
+
+margin: .2em 0 -.5em;
+
+font-size: 15px;
+
+color: #f5e051;
+
+font-family: Cabin;
+
+font-weight: bold;
+
+font-style: italic;
+
+text-shadow: #000000 0px 1px 0px;
+
+}
+
+.comment {
+
+display: block;
+
+padding: 10px 0;
+
+line-height: 20px;
+
+}
+
+.span {
+
+color: #365899;
+
+font-weight: bold;
+
+}
+
+.answer {
+
+color: #444;
+
+-webkit-font-smoothing: antialiased;
+
+margin: 0;
+
+padding: 0;
+
+border: 0;
+
+font: inherit;
+
+vertical-align: baseline;
+
+display: block;
+
+padding-top: 10px;
+
+line-height: 20px;
+
+padding-left: 9px;
+
+border-left: 1px solid #E9EBEE; margin-left: 50px; padding-bottom: 0;
+
+}
+
+.classeNova {
+
+color: #444;
+
+-webkit-font-smoothing: antialiased;
+
+margin: 0;
+
+padding: 0;
+
+border: 0;
+
+font: inherit;
+
+vertical-align: baseline;
+
+font-family: Arial;
+
+background-color:
+
+#F6F7F9!important;
+
+font-size: 14px;
+
+padding-top: 20px;
+
+}
+
+.paragrafo {
+
+color: #444;
+
+font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+
+line-height: 1.5em;
+
+margin: 0;
+
+margin-left: 60px;
+
+margin-bottom: 0px;
+
+}
+
+.like {
+
+font-size: 11px; color: #90949c;
+
+}
+
+.twenty1 {
+
+font-weight: 700;
+
+border-bottom: 1px solid #E9EBEE;
+
+display: block;
+
+padding-bottom: 6px;
+
+}
+
+.imgComment {
+
+width: 60px;
+
+height: 50px;
+
+float: left;
+
+padding-right: 10px;
+
+}
+
+.hide {
+
+display: none;
+
+}
+
+.pirataria h3 {
+
+text-transform: uppercase;
+
+font-size: 15px;
+
+letter-spacing: 5px;
+
+}
+
+.pirataria b{
+
+color: #FFC400;
+
+}
+
+.pirataria {
+
+font-size: 12px;
+
+text-align: justify;
+
+}
+
+footer {
+
+background-color: black;
+
+padding-top: 25px;
+
+padding-bottom: 25px;
+
+color: white;
+
+}
+
+.cpy {
+
+font-size: 12px;
+
+margin: 37px 0px 20px 0px;
+
+}
+
+.links a {
+
+font-size: 12px;
+
+color: white;
+
+}
+
+.lucas{
+
+font-size: 50px;
+
+color: #020201;
+
+text-shadow: 2px 2px 2px white;
+
+}
+
+.button-action{
+
+width: 100%;
+
+background: #032748;
+
+color: white;
+
+font-weight: 700;
+
+margin-top: 25px;
+
+}
+
+</style>
+
+<div class="comments py-4">
+
+<div class="container">
+
+<div class="row justify-content-center">
+
+<div class="col-lg-12">
+
+<div class="fb-comments" style="margin-top: 5px;">
+
+<div class="fb-comments-header">
+
+<span>7 de 3830 comentários</span>
+
+</div>
+
+<div class="fb-comments-wrapper" id="1">
+
+<table class="fb-comments-comment">
+
+<tbody>
+
+<tr>
+
+<td rowspan="3" class="fb-comments-comment-img"><img loading="lazy" width="48" height="48"
+
+src="https://mktvenda.com/wp-content/uploads/2023/08/m15.webp" width="48"></td>
+
+</tr>
+
+<tr>
+
+<td class="fb-comments-comment-text">
+
+<font class="fb-comments-comment-name">
+
+<name>Olívia Fernanda Lima</name>
+
+</font>
+
+<br/>
+
+¿Alguien sabe cómo acceder a él? Me interesó mucho, mi cuñada me había comentado algo sobre esta receta...
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fb-comments-comment-actions">
+
+<like>Curtir</like>
+
+·
+
+<reply>Responder</reply>
+
+
+
+ <likes><img src="https://mktvenda.com/wp-content/uploads/2023/08/likes.png" alt="">9</likes> 
+
+<date>10 min</date>
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+<div class="fb-comments-reply-wrapper" id="2">
+
+<table class="fb-comments-comment">
+
+<tbody>
+
+<tr>
+
+<td rowspan="3" class="fb-comments-comment-img"><img loading="lazy" width="48" height="48"
+
+src="https://mktvenda.com/wp-content/uploads/2023/08/m7.jpeg"></td>
+
+</tr>
+
+<tr>
+
+<td class="fb-comments-comment-text">
+
+<font class="fb-comments-comment-name">
+
+<name>isabel Oliveira</name>
+
+</font>
+
+<br/>
+
+<name class="mark-comments">Maria Fernanda Lima</name> Solo mira el video, es muy rápido y al final te dan acceso.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fb-comments-comment-actions">
+
+<like>Curtir</like>
+
+·
+
+<reply>Responder</reply>
+
+·
+
+<likes><img src="https://mktvenda.com/wp-content/uploads/2023/08/likes.png" alt="">28</likes>
+
+<date>25 min</date>
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+<div class="fb-comments-wrapper" id="4">
+
+<table class="fb-comments-comment">
+
+<tbody>
+
+<tr>
+
+<td rowspan="3" class="fb-comments-comment-img"><img loading="lazy" width="48" height="48"
+
+src="https://mktvenda.com/wp-content/uploads/2023/08/m3.webp"></td>
+
+</tr>
+
+<tr>
+
+<td class="fb-comments-comment-text">
+
+<font class="fb-comments-comment-name">
+
+<name>Nina Campos </name>
+
+</font>
+
+<br/>
+
+¿Como funciona? Yo también quiero empezar, que alguien me ayude!!! 🤔
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fb-comments-comment-actions">
+
+<like>Curtir</like>
+
+·
+
+<reply>Responder</reply>
+
+·
+
+<likes><img src="https://mktvenda.com/wp-content/uploads/2023/08/likes.png" alt="">11</likes>
+
+<date>53 min</date>
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+<div class="fb-comments-reply-wrapper" id="5">
+
+<table class="fb-comments-comment">
+
+<tbody>
+
+<tr>
+
+<td rowspan="3" class="fb-comments-comment-img"><img loading="lazy" width="48" height="48"
+
+src="https://mktvenda.com/wp-content/uploads/2023/08/m17.jpeg"></td>
+
+</tr>
+
+<tr>
+
+<td class="fb-comments-comment-text">
+
+<font class="fb-comments-comment-name">
+
+<name>Kensly Cabral</name>
+
+</font>
+
+<br/>
+
+<name class="mark-comments">Maria Clara Lourenço</name> Mira el vídeo hasta el final. Al final del vídeo se abrirá un botón y luego harás clic en él.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fb-comments-comment-actions">
+
+<like>Curtir</like>
+
+·
+
+<reply>Responder</reply>
+
+·
+
+<likes><img src="https://mktvenda.com/wp-content/uploads/2023/08/likes.png" alt="">42</likes>
+
+<date>42 min</date>
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+<div class="fb-comments-wrapper" id="19">
+
+<table class="fb-comments-comment">
+
+<tbody>
+
+<tr>
+
+<td rowspan="3" class="fb-comments-comment-img"><img loading="lazy" width="48" height="48"
+
+src="https://mktvenda.com/wp-content/uploads/2023/08/m2.webp"></td>
+
+</tr>
+
+<tr>
+
+<td class="fb-comments-comment-text">
+
+<font class="fb-comments-comment-name">
+
+<name>Santiago Cabral</name>
+
+</font>
+
+<br/>
+
+muchacho, me alegro de haberlo visto hasta el final, se lo mostré a mi esposa y ahora está súper bien!! 🙏
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fb-comments-comment-actions">
+
+<like>Curtir</like>
+
+·
+
+<reply>Responder</reply>
+
+·
+
+<likes><img src="https://mktvenda.com/wp-content/uploads/2023/08/likes.png" alt="">302</likes>
+
+<date>6 h</date>
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+<div class="fb-comments-reply-wrapper" id="20">
+
+<table class="fb-comments-comment">
+
+<tbody>
+
+<tr>
+
+<td rowspan="3" class="fb-comments-comment-img"><img loading="lazy" width="48" height="48"
+
+src="https://mktvenda.com/wp-content/uploads/2023/08/m18.jpeg"></td>
+
+</tr>
+
+<tr>
+
+<td class="fb-comments-comment-text">
+
+<font class="fb-comments-comment-name">
+
+<name>jhully Freire</name>
+
+</font>
+
+<br/>
+
+<name class="mark-comments">
+
+Alana Lima
+
+</name>
+
+Chicos, ya han pasado 15 días desde que comencé a seguir este paso a paso, los resultados son increíbles. Siempre he tenido muchos problemas con el peso y por primera vez veo mi cuerpo adelgazar...
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fb-comments-comment-actions">
+
+<like>Curtir</like>
+
+·
+
+<reply>Responder</reply>
+
+·
+
+<likes><img src="https://mktvenda.com/wp-content/uploads/2023/08/likes.png" alt="">163</likes>
+
+<date>4 h</date>
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+<div class="fb-comments-reply-wrapper" id="21">
+
+<table class="fb-comments-comment">
+
+<tbody>
+
+<tr>
+
+<td rowspan="3" class="fb-comments-comment-img"><img loading="lazy" width="48" height="48"
+
+src="https://mktvenda.com/wp-content/uploads/2023/08/m16.webp"></td>
+
+</tr>
+
+<tr>
+
+<td class="fb-comments-comment-text">
+
+<font class="fb-comments-comment-name">
+
+<name>Natália Martins</name>
+
+</font>
+
+<br/>
+
+<name class="mark-comments">
+
+Alana Lima
+
+</name>
+
+Hermoso. Lo probé en mí mismo y funcionó muy bien. Haz el paso a paso correcto y verás los resultados en poco tiempo.
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fb-comments-comment-actions">
+
+<like>Curtir</like>
+
+·
+
+<reply>Responder</reply>
+
+·
+
+<likes><img src="https://mktvenda.com/wp-content/uploads/2023/08/likes.png" alt="">66</likes>
+
+<date>2 h</date>
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div></body></html>
           </div>
   
 <!-- Botão 2 -->
